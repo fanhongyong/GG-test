@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  GG环信test
+//
+//  Created by heyudongfang on 16/3/17.
+//  Copyright © 2016年 heyudongfang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "EaseUI-Prefix.pch"
+#define DDLog(xx, ...)  NSLog(@"%s(%d): " xx, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+#endif /* PrefixHeader_pch */
